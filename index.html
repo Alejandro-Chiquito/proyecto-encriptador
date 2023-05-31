@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css/reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <title>Encriptador Alura</title>
+
+    </head>
+
+    <body>
+
+        <header>  
+
+             <!--logo-->
+            <img class="logo" src="Alura Challenge - Desafío 1 - Lógica/Logo.png" alt="logo alura">
+
+        </header>
+
+        <main>
+            <section class="input">
+                
+                <textarea class="texto" cols="50" rows="15" placeholder="Ingrese el texto aqui" required></textarea>
+
+                <div>
+                    <h6>
+                        <img class="signo-advertencia" src="Alura Challenge - Desafío 1 - Lógica/bi_exclamation-circle-fill.png"><p class="aviso">Solo letras minúsculas y sin acentos</p>
+                    </h6>
+                </div>
+
+                <div>
+                    <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="btDesencriptar()">Desencriptar</button>
+                </div>
+
+            </section>
+
+            <section>
+
+                <div>
+                    <textarea id="texto-s" class="output" cols="30" rows="25"></textarea>
+                </div>
+
+                <div>
+                    <img class="muneco" id="muneco" src="kirby-not-found.png">
+                </div>
+
+                <div>
+                    <button id="boton-copiar" class="copiar" onclick="copiarAlPortapapeles()">Copiar</button>
+                </div>
+
+                <div>
+                    <h5 id="mensaje1">Ningún mensaje fue <br> encontradó</h5>
+                </div>
+
+                <div>
+                    <p id="mensaje2">Ingresa el texto que desees encriptar o <br> desencriptar.</p>
+                </div>
+
+            </section>
+
+        </main>
+
+        <script src="script.js"></script>
+    
+    </body>
+
+</html>

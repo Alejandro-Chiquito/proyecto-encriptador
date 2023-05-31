@@ -1,0 +1,140 @@
+body {
+    background-color:#E5E5E5;
+    display: inline-block;
+    overflow-y: hidden;
+}
+
+.logo {
+    display: inline-block;
+    margin: 50px 0px 0px 20px;
+}
+
+.main {
+    display: inline-block;
+}
+
+.input {
+    display: flexbox;
+}
+
+.texto {
+    display: inline-block;
+    margin: -15px 0px 15px 300px;
+    font-size: 25px;
+    color: darkblue;
+    border: none;
+    background-color:#E5E5E5;
+    text-transform: lowercase;
+}
+
+.texto::placeholder {
+    font-family: 'Monserrate' , sans-serif;
+    color: darkblue;
+}
+
+.texto:focus {
+    outline: none;
+}
+
+.signo-advertencia {
+    display: inline-block;
+    width: 15px;
+    margin: 0px 0px -3px 310px;
+}
+
+.aviso {
+    display: inline-block;
+    margin: -100px 0px 0px 10px;
+    padding: 10px 0px 0px 0px;
+    font-style: italic;
+    color: red;
+} 
+
+.encriptar {
+    display: inline-block;
+    margin: 20px 0px 0px 300px;
+    width: 350px;
+    padding: 25px 0px 25px 0px;
+    border: none;
+    border-radius: 20px;
+    background-color: darkblue;
+    color: white;
+    font-size: 17px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.encriptar:hover {
+    background: darkblue;
+    transform: scale(1.1);
+}
+
+.desencriptar {
+    margin: 20px 0px 0px 20px;
+    width: 350px;
+    padding: 25px 0px 25px 0px;
+    border-radius: 20px;
+    background-color: lightgray;
+    border-color: darkblue;
+    color: darkblue;
+    font-size: 17px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.desencriptar:hover {
+    background: rgb(207, 206, 206);
+    transform: scale(1.1);
+}
+
+.output {
+    display: inline-block;
+    margin: -600px 100px 600px 1150px;
+    border: none;
+    border-radius: 25px;
+    font-size: 25px;
+    box-shadow: 5px 5px 60px 12px #000000;
+}
+
+.output:focus {
+    outline: none;
+}
+
+.muneco {
+    display: inline-block;
+    background: none;
+    width: 300px;
+    margin: -1025px 0px 1025px 1250px;
+}
+
+.copiar{
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 1185px;
+    margin-top: -720px;
+    position: fixed;
+    width: 365px;
+}
+
+#mensaje1 {
+    display: flexbox;
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 25px;
+    text-align: center;
+    position: fixed;
+    margin: -1050px 0px 0px 1260px;
+    padding: 0px 0px 100px 0px;
+}
+
+#mensaje2 {
+    display: flexbox;
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 17px;
+    text-align: center;
+    position: fixed;
+    margin: -950px 0px 0px 1220px;
+    padding: 0px 0px 100px 0px;
+}
